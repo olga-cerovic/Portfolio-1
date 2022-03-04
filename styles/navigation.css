@@ -1,0 +1,148 @@
+/* .navigation-menu-mobile {
+  width: 100%;
+} */
+
+.show {
+  display: block;
+}
+
+.notShow {
+  display: none;
+}
+
+/* .navigation-menu-mobile li {
+  width: 100%;
+  padding: 2% 0;
+  text-align: center;
+  padding-bottom: 10px;
+} */
+
+/* .navigation-menu-mobile li a {
+  width: 100%;
+  all: unset;
+}
+
+.navigation-menu-mobile li a:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+} */
+
+/*Menu*/
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 100000;
+}
+
+/*Nav-bar*/
+.navigation-bar {
+  display: flex;
+  top: 0;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  text-decoration: none;
+}
+
+.navigation-menu-mobile {
+  /* display: none; */
+  color: #fff;
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-top: 40%;
+  padding-bottom: 30%;
+  margin-top: 350px;
+}
+
+.list-item {
+  padding: 10px;
+  list-style: none;
+}
+
+/*Hamburger-menu*/
+.hamburger-menu {
+  display: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.line-one,
+.line-two,
+.line-three {
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+/* .navigation-menu-mobile {
+  display: none;
+} */
+
+a {
+  text-decoration: none;
+}
+
+header .hamburger-menu {
+  position: absolute;
+  top: 2vh;
+  left: 3.8vw;
+}
+
+.show {
+  display: block;
+}
+
+.notShow {
+  display: none;
+}
+
+.navigation-menu-mobile li {
+  width: 100%;
+  padding: 2% 0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.navigation-menu-mobile li a {
+  width: 100%;
+  all: unset;
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation-menu {
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+    right: 0px;
+    flex-direction: column;
+    background-color: white;
+    display: none;
+  }
+  .navigation-bar {
+    height: 0;
+    top: 0%;
+  }
+  .nav-change {
+    transform: translate(0%);
+  }
+  .hamburger-menu {
+    display: block;
+  }
+}
