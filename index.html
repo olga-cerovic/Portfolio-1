@@ -26,21 +26,147 @@
           <li class="list-item"><a href="#myWork">About</a></li>
           <li class="list-item"><a href="#contact">Posts</a></li>
         </ul>
-        <!-- <div class="navigation-social">
+        <div class="navigation-social">
           <i class="fab fa-linkedin-in"></i>
           <i class="fab fa-github"></i>
           <i class="fab fa-twitter"></i>
-        </div> -->
+        </div>
       </div>
     </header>
     <main>
-      <div class="main-photo-container">
+      <!-- <div class="main-photo-container">
+      </div> -->
+
+      <div class="background-container">
         <div class="main-photo">
           <img src="./images/Olga_bw_12.png" />
+        </div>
+        <div class="greeting">
+          <div>
+            <h1>Hi, I'm <span>Olga</span>.</h1>
+            <h2>Front end Developer.</h2>
+            <h2>Graphic and UX designer.</h2>
+          </div>
+          <div class="find-out-more">
+            <a href="">Find out more</a>
+            <i class="fa-solid fa-angles-down"></i>
+          </div>
         </div>
       </div>
       <div class="background">
         <img src="./images/Background.jpg" />
+      </div>
+      <div class="main-content">
+        <!-- <div>
+            <h1>Hi, I'm Olga.</h1>
+            <h2>Front end Developer.</h2>
+            <h2>Graphic and UX designer.</h2>
+          </div>
+          <div class="find-out-more">
+            <a href="">Find out more</a>
+            <i class="fa-solid fa-angles-down"></i>
+          </div>
+        </div> -->
+      </div>
+      <div class="background-container">
+        <div class="background">
+          <img src="./images/Background.jpg" />
+        </div>
+        <div class="main-content">
+          <div>
+            <h2>About me</h2>
+            <p>
+              After high school I enrolled Graphic Engineering and Design
+              studies where I gained solid knowledge about digital and print
+              design. When I moved to Norway I had an idea that I could combine
+              that knowledge with programming and that's how I decided to study
+              Front end Development at Noroff School of Technology and Digital
+              Media in Oslo. I am currently at the end of my first year of
+              studies and I'm looking forward to learning new things and
+              expanding my knowledge in both programming and design field. I am
+              excited about building my career as a developer and designer and
+              I'm looking forward to new challenges and opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="background-container">
+        <div class="background">
+          <img src="./images/Background.jpg" />
+        </div>
+        <div class="main-content-contact">
+          <div>
+            <h2>My work</h2>
+            <a
+              ><span>Rainy Days</span>
+              | online clothing store | school project
+            </a>
+            <a
+              ><span>Community Science Center</span>
+              | sceince museum website | school project
+            </a>
+            <a
+              ><span>Coffee Nomad</span>
+              | personal blog | school project
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="background-container-contact">
+        <div class="background">
+          <img src="./images/Background.jpg" />
+        </div>
+        <div class="main-content">
+          <div>
+            <div class="contact-form-container">
+              <p id="formError"></p>
+              <form id="contactForm">
+                <div>
+                  <label>
+                    Full Name (required)
+                    <input name="fullName" id="fullName" />
+                  </label>
+                  <div class="field-error" id="fullNameError">
+                    Your name must be a least 5 characters long.
+                  </div>
+                </div>
+                <div>
+                  <label>
+                    Email (required)
+                    <input name="email" id="email" />
+                  </label>
+                  <div class="field-error" id="emailError">
+                    Please enter a valid email address. Example email@email.com
+                  </div>
+                </div>
+                <div>
+                  <label>
+                    Subject (required)
+                    <input name="subject" id="subject" />
+                  </label>
+                  <div class="field-error" id="subjectError">
+                    Your subject must be at least 15 characters long.
+                  </div>
+                </div>
+                <div>
+                  <label> Message (required)</label>
+                  <textarea name="message" id="message"></textarea>
+                  <div class="field-error" id="messageError">
+                    Your message must be at least 25 characters long.
+                  </div>
+                </div>
+                <button
+                  class="formButton"
+                  type="submit"
+                  id="formButton"
+                  onclick="validateForm();"
+                >
+                  Send message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <footer></footer>
