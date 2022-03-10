@@ -20,3 +20,7 @@ window.addEventListener("resize", function () {
 });
 
 hamburgeMenuDiv.addEventListener("click", handleHamburgerMenuButton);
+
+let changeHamburgerIcon = function(icon) {
+  icon.classList.toggle
+}

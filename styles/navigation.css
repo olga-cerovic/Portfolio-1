@@ -1,6 +1,8 @@
-/* .navigation-menu-mobile {
+@import url("//use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+.navigation-menu-mobile {
   width: 100%;
-} */
+}
 
 .show {
   display: block;
@@ -10,16 +12,18 @@
   display: none;
 }
 
-/* .navigation-menu-mobile li {
+.navigation-menu-mobile li {
   width: 100%;
   padding: 2% 0;
   text-align: center;
   padding-bottom: 10px;
-} */
+  color: #fff;
+}
 
-/* .navigation-menu-mobile li a {
+.navigation-menu-mobile li a {
   width: 100%;
   all: unset;
+  z-index: 2000;
 }
 
 .navigation-menu-mobile li a:hover {
@@ -27,7 +31,7 @@
   color: #fff;
   cursor: pointer;
   padding: 10px;
-} */
+}
 
 /*Menu*/
 header {
@@ -35,7 +39,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
   background-color: white;
   width: 100%;
   z-index: 100000;
@@ -53,24 +57,26 @@ header {
 
 .navigation-menu {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin: auto;
   text-decoration: none;
 }
 
 .navigation-menu-mobile {
   /* display: none; */
-  color: #fff;
+  /* color: #fff; */
   display: flex;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  padding-top: 40%;
-  padding-bottom: 30%;
-  margin-top: 350px;
+  background-color: #000;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  padding-top: 30vh;
+  padding-bottom: 25vh;
+  margin-top: 90%;
+  z-index: 7000;
 }
 
 .list-item {
-  padding: 10px;
+  padding: 4vh;
   list-style: none;
 }
 
@@ -79,6 +85,7 @@ header {
   display: none;
   padding: 5px;
   cursor: pointer;
+  z-index: 2000000;
 }
 .line-one,
 .line-two,
@@ -87,13 +94,12 @@ header {
   width: 35px;
   height: 3px;
   margin: 5px auto;
-  background-color: #fff;
-  transition: 0.4s;
+  background-color: red;
 }
 
-/* .navigation-menu-mobile {
+.navigation-menu-mobile {
   display: none;
-} */
+}
 
 a {
   text-decoration: none;
@@ -103,6 +109,10 @@ header .hamburger-menu {
   position: absolute;
   top: 2vh;
   left: 3.8vw;
+}
+
+.show {
+  display: block;
 }
 
 .show {
@@ -135,6 +145,7 @@ header .hamburger-menu {
     background-color: white;
     display: none;
   }
+
   .navigation-bar {
     height: 0;
     top: 0%;
