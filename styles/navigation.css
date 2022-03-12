@@ -12,6 +12,13 @@
   display: none;
 }
 
+.nav-bar-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .navigation-menu-mobile li {
   width: 100%;
   padding: 2% 0;
@@ -49,17 +56,25 @@ header {
 .navigation-bar {
   display: flex;
   top: 0;
-  width: 100vw;
+  width: 100%;
   height: 10vh;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 .navigation-menu {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   margin: auto;
   text-decoration: none;
+}
+
+.menu-left {
+  display: block;
+}
+
+.navigation-social {
+  margin-left: auto !important;
 }
 
 .navigation-menu-mobile {
