@@ -58,8 +58,18 @@ span {
   margin-bottom: 6vh;
 }
 
-.main-content p {
+.website {
   margin-bottom: 4vh;
+}
+
+.website ul {
+  margin-top: 3vh;
+  margin-left: 2vw;
+}
+
+.website ul li {
+  margin-top: 2vh;
+  font-size: 1em;
 }
 
 .greeting {
