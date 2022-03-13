@@ -1,5 +1,10 @@
 @import url("//use.fontawesome.com/releases/v5.15.3/css/all.css");
 
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+}
 .navigation-menu-mobile {
   width: 100%;
 }
@@ -19,6 +24,11 @@
   align-items: center;
   width: 100%;
   padding: 0 1rem;
+}
+
+.nav-bar-main li :hover {
+text-decoration: underline;
+font-weight: bolder;
 }
 
 .navigation-menu-mobile li {
@@ -114,10 +124,6 @@ header {
 
 .navigation-menu-mobile {
   display: none;
-}
-
-a {
-  text-decoration: none;
 }
 
 header .hamburger-menu {

@@ -13,23 +13,6 @@
   padding-bottom: 3vh;
 } */
 
-#contactForm {
-  width: 50vw;
-}
-#contactForm input,
-textarea {
-  width: 100%;
-}
-
-#contactForm label {
-  color: #fff;
-  display: block;
-}
-
-.field-error {
-  display: none;
-}
-
 h1 {
   font-size: 1.2em;
 }
@@ -80,6 +63,15 @@ span {
   margin-bottom: 4vh;
 }
 
+.website a {
+  color: #fff;
+}
+
+.website a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
 .website ul {
   margin-top: 3vh;
   margin-left: 2vw;
@@ -98,6 +90,7 @@ span {
   /* align-items: center;
   display: block;
   justify-content: center; */
+  z-index: 20000;
 }
 
 .contact-me {
@@ -105,7 +98,26 @@ span {
   margin-top: 12vh;
   font-size: 1.3em;
   font-weight: bold;
-  color: #ffc744 !important;
+}
+
+.contact-me a {
+  background-color: #ffc744 !important ;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.contact-me a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 850px) {
+  .main-content {
+    margin: 20px;
+  }
+  .website ul li {
+    margin-top: 1.5vh;
+    font-size: 0.9em;
+  }
 }
 
 @media only screen and (max-width: 768px) {
