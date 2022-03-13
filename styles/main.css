@@ -16,19 +16,23 @@
 #contactForm {
   width: 50vw;
 }
-#contactForm div {
+#contactForm input,
+textarea {
   width: 100%;
 }
 
 #contactForm label {
-  color: #000;
+  color: #fff;
   display: block;
+}
+
+.field-error {
+  display: none;
 }
 
 h1 {
   font-size: 1.2em;
 }
-
 
 .main-photo {
   position: absolute;
