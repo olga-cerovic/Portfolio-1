@@ -6,11 +6,23 @@
   font-family: Montserrat-Medium, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
+/* header {
   top: 0;
   z-index: 1;
   padding-top: 3vh;
   padding-bottom: 3vh;
+} */
+
+#contactForm {
+  width: 50vw;
+}
+#contactForm div {
+  width: 100%;
+}
+
+#contactForm label {
+  color: #000;
+  display: block;
 }
 
 h1 {
