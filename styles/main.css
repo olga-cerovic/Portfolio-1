@@ -2,14 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* max-width: 100%; */
-  /* overflow-x: hidden; */
+
   font-family: Montserrat-Medium, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
   top: 0;
-  /* background: #fa0; */
   z-index: 1;
   padding-top: 3vh;
   padding-bottom: 3vh;
@@ -19,10 +17,6 @@ h1 {
   font-size: 1.2em;
 }
 
-i {
-  color: #ffc744;
-  z-index: 200000;
-}
 
 .main-photo {
   position: absolute;
@@ -90,8 +84,12 @@ span {
   justify-content: center; */
 }
 
-.find-out-more {
+.contact-me {
+  text-decoration: none;
   margin-top: 12vh;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #ffc744 !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -99,5 +97,9 @@ span {
     /* display: none; */
     width: 50%;
     height: 50%;
+  }
+
+  .greeting {
+    transform: translateY(170%);
   }
 }
