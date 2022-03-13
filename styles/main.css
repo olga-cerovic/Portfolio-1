@@ -47,7 +47,7 @@ span {
 }
 
 .main-content p {
-  margin-bottom: 5vh;
+  margin-bottom: 5vh !important;
 }
 
 .main-content h2 {
@@ -68,12 +68,12 @@ span {
 }
 
 .website ul {
-  margin-top: 3vh;
+  margin-top: 2vh;
   margin-left: 2vw;
 }
 
 .website ul li {
-  margin-top: 2vh;
+  margin-top: 1.5vh;
   font-size: 1em;
 }
 
@@ -107,7 +107,7 @@ span {
   }
   .website ul li {
     margin-top: 1.5vh;
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 }
 
@@ -118,6 +118,6 @@ span {
   }
 
   .greeting {
-    transform: translateY(170%);
+    transform: translateY(140%);
   }
 }
