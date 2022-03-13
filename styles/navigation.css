@@ -27,8 +27,8 @@ a {
 }
 
 .nav-bar-main li :hover {
-text-decoration: underline;
-font-weight: bolder;
+  text-decoration: underline;
+  font-weight: bolder;
 }
 
 .navigation-menu-mobile li {
@@ -112,14 +112,12 @@ header {
   cursor: pointer;
   z-index: 2000000;
 }
-.line-one,
-.line-two,
-.line-three {
+.ham-line {
   display: block;
   width: 35px;
   height: 3px;
   margin: 5px auto;
-  background-color: red;
+  background-color: #000;
 }
 
 .navigation-menu-mobile {

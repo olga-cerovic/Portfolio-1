@@ -55,7 +55,11 @@ textarea {
   margin-top: 12px;
 }
 
-.formButton :hover {
+.formButton:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.send-button {
+  text-align: center;
 }
